@@ -1,42 +1,49 @@
 # 🧱 Wall Wars
 
-A **2-player strategy board game** where you build walls to form rectangles and score points. Built with vanilla HTML, CSS, and JavaScript.
+A fast-paced **2-player strategy board game** where you build walls, form rectangles, and score points. Built entirely with vanilla HTML5, CSS3, and JavaScript—no frameworks, no external dependencies.
 
-![Wall Wars](https://img.shields.io/badge/Players-2-blue) ![Status](https://img.shields.io/badge/Status-Playable-green) ![Tech](https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-orange)
+👉 **[Play Wall Wars Online Now!](https://krim0k27.github.io/wall-wars/)** 🚀
+
+---
 
 ## 🎮 How to Play
 
-1. Open `index.html` in your browser
-2. Enter player names and click **GIOCA**
-3. Pick your starting positions on the board edge
-4. Take turns: **roll the dice** to place walls, or **place a block** to stop your opponent
-5. Close rectangles to score points — first to **10 wins!**
+1.  Open the **[Online Game Link](https://krim0k27.github.io/wall-wars/)** in your browser.
+2.  Enter the player names and click **GIOCA**.
+3.  Choose your starting positions on the board edge.
+4.  **Take turns**:
+    *   **Roll the Dice**: Place walls (equal to the rolled number) connected to your existing network.
+    *   **Place a Block**: Place a blocker block anywhere on the board to disrupt your opponent's path.
+5.  **Score Points**: Form closed rectangles using your walls and the board borders.
+6.  **Win**: The first player to reach **10 points** wins the match!
 
-## 📁 Project Structure
+---
+
+## 🎲 Core Rules
+
+*   **Grid Size**: 6x6 grid.
+*   **Dice**: 3-sided dice (D3).
+*   **Connectivity**: Walls must be connected to your starting point or your existing wall network.
+*   **Blocking**: You can opt to place 1 blocker block instead of rolling. Blocks prevent opponents from passing or closing shapes.
+*   **Scoring**: Closing a shape scores points proportional to the closed area. A block inside or on the border of a shape prevents it from being scored.
+*   *For a complete guide, read the full [Rulebook (rules.md)](rules.md).*
+
+---
+
+## 📂 Project Structure
 
 ```
-game/
-├── index.html    # Main game page
-├── styles.css    # Dark neon theme & layout
-├── game.js       # Game engine & canvas rendering
-├── rules.md      # Complete game rules (English B2)
-└── README.md     # This file
+├── index.html       # Main game page (HTML5 structure)
+├── styles.css       # Neon dark-theme styling & responsive layout
+├── game.js          # Game engine, state management, and Canvas rendering
+├── rules.md         # Detailed game rules
+└── README.md        # Project documentation
 ```
 
-## 📖 Rules
+---
 
-See [rules.md](rules.md) for the complete rulebook.
+## 🛠️ Technology Stack
 
-**Quick summary:**
-- 6×6 grid, 2 players, D3 dice
-- Roll dice → place that many walls (connected to your network)
-- Or place 1 block anywhere to disrupt your opponent
-- Close rectangles with your walls + board edges = points (area)
-- Blocks on the border or inside a rectangle prevent scoring
-- First to 10 points wins
-
-## 🛠️ Tech
-
-- **HTML5 Canvas** for the game board
-- **Vanilla CSS** with dark theme, neon glow effects
-- **Pure JavaScript** — no frameworks, no dependencies
+*   **Graphics**: HTML5 Canvas API for smooth, real-time board rendering and animations.
+*   **Styling**: Vanilla CSS3 featuring a premium **neon-glow dark theme** with fluid transitions.
+*   **Logic**: Pure, object-oriented ES6+ JavaScript for game state, dice rolling, connectivity checks, and scoring algorithms.
