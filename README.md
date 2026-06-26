@@ -2,13 +2,13 @@
 
 A fast-paced **2-player strategy board game** where you build walls, form rectangles, and score points. Built entirely with vanilla HTML5, CSS3, and JavaScript—no frameworks, no external dependencies.
 
-👉 **[Play Wall Wars Online Now!](https://krim0k27.github.io/wall-wars/)** 🚀
+👉 **[Play Wall Wars Online Now!](https://mirkokeller.github.io/wall-wars/)** 🚀
 
 ---
 
 ## 🎮 How to Play
 
-1.  Open the **[Online Game Link](https://krim0k27.github.io/wall-wars/)** in your browser.
+1.  Open the **[Online Game Link](https://mirkokeller.github.io/wall-wars/)** in your browser.
 2.  Enter the player names and click **GIOCA**.
 3.  Choose your starting positions on the board edge.
 4.  **Take turns**:
