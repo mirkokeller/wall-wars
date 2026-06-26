@@ -1,8 +1,8 @@
 # 🧱 Wall Wars
 
-A fast-paced **2-player strategy board game** where you build walls, form rectangles, and score points. Built entirely with vanilla HTML5, CSS3, and JavaScript—no frameworks, no external dependencies.
+A **2-player strategy board game** where you build walls, form rectangles, and score points. Built with vanilla HTML5, CSS3, and JavaScript, with no frameworks or external dependencies.
 
-👉 **[Play Wall Wars Online Now!](https://mirkokeller.github.io/wall-wars/)** 🚀
+👉 **[Play Wall Wars Online Now!](https://mirkokeller.github.io/wall-wars/)**
 
 ---
 
@@ -44,6 +44,6 @@ A fast-paced **2-player strategy board game** where you build walls, form rectan
 
 ## 🛠️ Technology Stack
 
-*   **Graphics**: HTML5 Canvas API for smooth, real-time board rendering and animations.
-*   **Styling**: Vanilla CSS3 featuring a premium **neon-glow dark theme** with fluid transitions.
-*   **Logic**: Pure, object-oriented ES6+ JavaScript for game state, dice rolling, connectivity checks, and scoring algorithms.
+*   **Graphics**: HTML5 Canvas API for board rendering.
+*   **Styling**: Vanilla CSS3 featuring a dark theme.
+*   **Logic**: Vanilla JavaScript for game state, dice rolling, connectivity checks, and scoring.
